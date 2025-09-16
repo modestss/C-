@@ -10,6 +10,6 @@ int main(){
   t1 = sin(x)/a*x
   t2 = fabs(cos(3.1415926/2*x));
   y = t1+t2;
-  printf("%.3f",y);//%.3f作用是结果保留三位小数
+  printf("%.3f",y);//%.3f作用是结果保留三位小数，%.nf这里的n为保留的小数位数
   return 0;
 }
